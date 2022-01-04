@@ -75,6 +75,7 @@ def addBinaryString(a, b):
     return res
 
 print(addBinaryString("1", "111"))
+print(addBinaryString("1010", "1101"))
 
 
 
