@@ -102,4 +102,6 @@ list1.push(1);
 print(list1.hasCycle())
 
 
+list1 = LinkedList();
+print(list1.hasCycle())
  

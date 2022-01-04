@@ -45,6 +45,7 @@ class LinkedList:
             temp = temp.next 
         print("")      
 
+    # add nodes
     def push(self, val):
         node = Node(val)
         if self.head == None:

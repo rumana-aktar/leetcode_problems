@@ -90,3 +90,15 @@ list2.push(1);list2.push(3);list2.push(4); list2.push(14); list2.push(43);list2.
 list2.printList()
 list2.swapNode()
 list2.printList()
+
+
+list1 = LinkedList();
+list1.push(1);
+list1.printList(); 
+list1.swapNode()
+list1.printList()
+
+list1 = LinkedList();
+list1.printList(); 
+list1.swapNode()
+list1.printList()

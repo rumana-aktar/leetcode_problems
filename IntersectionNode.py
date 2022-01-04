@@ -80,6 +80,7 @@ class LinkedList:
             temp = temp.next
         print("")    
 
+    # add node
     def push(self, val):
         node = Node(val)
         if self.head == None:
