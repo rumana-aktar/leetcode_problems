@@ -91,3 +91,9 @@ list2.push(1);list2.push(2);list2.push(3); list2.push(4); list2.push(5); list2.p
 list2.printList()
 list2.oddEven()
 list2.printList()
+
+# # --------------------------MAIN to TEST-------------------------------------
+list2 = LinkedList();
+list2.printList()
+list2.oddEven()
+list2.printList()

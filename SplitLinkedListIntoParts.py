@@ -35,6 +35,7 @@ class LinkedList:
             temp = temp.next
         print("")    
 
+    # to generate linkedlist
     def push(self, val):
         node = Node(val)
         if self.head == None:

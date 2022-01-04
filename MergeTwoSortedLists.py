@@ -52,3 +52,4 @@ def mergeTwoSortedLists(nums1, m, nums2, n):
 print(mergeTwoSortedLists([1,2,3,0,0,0], 3, [2,5,6], 3))
 print(mergeTwoSortedLists([1], 1, [], 0))
 print(mergeTwoSortedLists([0], 0, [1], 1))
+print(mergeTwoSortedLists([], 0, [], 0))

@@ -102,3 +102,8 @@ list2.push(1);list2.push(2);list2.push(3); list2.push(4); list2.push(5); list2.p
 list2.printList()
 list2.reverseLinkedList()
 list2.printList()
+
+list2 = LinkedList();
+list2.printList()
+list2.reverseLinkedList()
+list2.printList()
