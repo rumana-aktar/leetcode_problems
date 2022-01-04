@@ -71,3 +71,4 @@ def bracketMatching(s):
 # # --------------------------MAIN to TEST-------------------------------------
 print(bracketMatching("{()}()"))            
 print(bracketMatching("{()()"))            
+print(bracketMatching(""))            
