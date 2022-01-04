@@ -51,6 +51,13 @@ root.left = Node(2)
 root.right = Node(3)
 root.left.left = Node(4)
 root.left.right = Node(5)
+root.left.right.left = Node(50)
 
-print("Preorder traversal of binary tree is")
+print("Preorder traversal of binary tree is: ", end="")
+printInorder(root)
+
+root = Node(1)
+root.left = Node(2)
+
+print("\nPreorder traversal of binary tree is: ", end="")
 printInorder(root)

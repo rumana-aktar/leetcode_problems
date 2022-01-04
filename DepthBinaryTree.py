@@ -41,6 +41,7 @@ class Node:
         self.right = None
         self.val = key
 
+# recursive 
 def depthBinaryTree(root):
     if root == None:
         return 0
@@ -89,7 +90,6 @@ root = Node(3)
 root.left = Node(9)
 root.right = Node(20)
 root.right.left = Node(15)
-root.right.right = Node(7)
 print(depthBinaryTree(root))
 
 # # --------------------------MAIN to TEST-------------------------------------
