@@ -87,3 +87,8 @@ list2.push(1);list2.push(1);list2.push(2);list2.push(2);list2.push(2);list2.push
 list2.printList()
 list2.deleteDuplicates(list2.head)
 list2.printList(); 
+
+list2 = LinkedList();
+list2.printList()
+list2.deleteDuplicates(list2.head)
+list2.printList(); 
