@@ -51,3 +51,4 @@ def convertToLowerCase(s):
 print(convertToLowerCase("Hello"))
 print(convertToLowerCase("LOVELY"))
 print(convertToLowerCase("here"))
+print(convertToLowerCase("I Love You"))

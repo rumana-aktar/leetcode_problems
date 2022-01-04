@@ -79,41 +79,6 @@ def squaresSortedArray(nums):
     return nums         
 
 
-
-
-
-def mergeTwoSortedLists(nums1, m, nums2, n):
-    #copy the elements to the end of list1
-    i=n-1; j=m+n-1
-    while i>=0:
-        nums1[j]=nums1[i]
-        i-=1; j-=1
-
-    #now sort
-    i=n; j=0; k=0
-    while i<m+n and j<n:
-        if nums1[i] <nums2[j]:
-            nums1[k] = nums1[i]
-            i+=1; k+=1
-        else:
-            nums1[k]=nums2[j]
-            k+=1; j+=1
-
-    while i<m+n:
-        nums1[k]=nums1[i]
-        k+=1; i+=1
-
-    while j<n:
-        nums1[k]=nums2[j]
-        k+=1; j+=1      
-
-    return nums1          
-
-
-
-
 # # --------------------------MAIN to TEST-------------------------------------
-print(mergeTwoSortedLists([1,2,3,0,0,0], 3, [2,5,6], 3))
-print(mergeTwoSortedLists([1], 1, [], 0))
-print(mergeTwoSortedLists([0], 0, [1], 1))
 print(squaresSortedArray([-4,-1,0,3,10]))
+print(squaresSortedArray([-13, -4,-1,4,10, 12]))
